@@ -1,0 +1,108 @@
+h4, h5, h6 { 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 110% arial, sans-serif;
+  color: #999;
+  line-height: 1.5em;
+}
+
+h5, h6 { 
+  font: italic 95% arial, sans-serif;
+  color: #888;
+  padding-bottom: 15px;
+}
+
+h6 { 
+  color: #362C20;
+}
+
+a, a:hover { 
+  outline: none;
+  text-decoration: none;
+  color: #00B7EC;
+}
+
+a:hover { 
+  text-decoration: underline;
+  color: #00B7EC;
+}
+
+ul li { 
+  list-style-type: none;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 5px;
+}
+
+header { 
+  width: 950px;
+  height: 105px;
+}
+
+#logo { 
+  width: 220px;
+  float: left;
+  height: 100px;
+  background: transparent;
+  padding: 0 0 10px 10px;
+}
+
+#logo h1 { 
+  padding: 10px 0 0 17px;
+  color: #222;
+  letter-spacing: -2px;
+}
+
+#logo h1 a { 
+  color: #999;
+  text-decoration: none;
+}
+
+#logo h1 a:hover { 
+  color: #222;
+  text-decoration: none;
+}
+
+nav { 
+  height: 26px;
+  width: 720px;
+  margin: 9px auto 0 auto;
+  float: right;
+  padding: 20px 0 0 0;
+} 
+
+#sidebar_container { 
+  float: left;
+  width: 450px;
+  padding: 0;
+  height: 450px;
+}
+
+.content { 
+  text-align: justify;
+  width: 460px;
+  padding: 0 0 5px 30px;
+  margin: 0;
+  float: left;
+}
+
+ul.images {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+} 
+
+ul.images li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  list-style: none;
+}
+  
+ul img {
+  border:none;  
+}
