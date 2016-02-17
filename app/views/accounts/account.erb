@@ -1,0 +1,24 @@
+<div class="content">
+  <% unless locals.empty? %>
+    <%= message %>
+  <% end %>
+
+  <h1>Welcome, <%= @user.username %></h1>
+  <br>
+  <h3>Balance: $<%= @user.account.balance %></h3>
+  <br>
+  <form method="POST" action="/account">
+  <input id="hidden" type="hidden" name="_method" value="patch">
+  <label>Deposit: $</label>
+  <input type="number" name="deposit" placeholder="amount" value="0.00">
+  <br>
+  <br>
+  <label>Withdraw: $</label>
+  <input type="number" name="withdraw" placeholder="amount" value="0.00">
+  <br>
+  <em><small>whole numbers only</small></em>  
+  <br>
+  <br>
+  <input type="submit" value="Complete">
+  </form>
+</div>
